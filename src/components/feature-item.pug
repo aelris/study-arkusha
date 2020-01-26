@@ -1,0 +1,10 @@
+mixin feature-item(img, number, subtitle, title, desc)
+    .feature-item&attributes(attributes)
+        .feature-item__img
+            img(src=img)
+        .feature-item__text
+            .feature-item__subtitle-wrapper
+                .feature-item__number=number
+                .feature-item__subtitle=subtitle
+            .feature-item__title=title
+            .feature-item__desc=desc

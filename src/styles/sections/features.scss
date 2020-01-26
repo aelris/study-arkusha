@@ -1,0 +1,30 @@
+.features {
+   margin-top: 120px;
+   padding-bottom: 160px;
+
+   &__header-title {
+     font-family: Montserrat;
+     font-weight: bold;
+     font-size: 36px;
+     line-height: 63px;
+     text-align: center;
+     letter-spacing: -2px;
+     color: #212121;
+   }
+
+   &__header-desc{
+     max-width: 762px;
+     font-family: Montserrat;
+     font-weight: 300;
+     font-size: 14px;
+     line-height: 30px;
+     text-align: center;
+     letter-spacing: -1px;
+     color: #5c5c5c;
+     margin: 0 auto;
+   }
+
+   &__feature-item {
+     margin-top: 75px;
+   }
+ }

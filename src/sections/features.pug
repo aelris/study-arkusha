@@ -1,0 +1,34 @@
+include ../components/container
+include ../components/feature-item
+
+section.features
+    +container
+        .features__content
+            .features__header
+                .features__header-title.
+                    Features Of Bielefeld
+                .features__header-desc.
+                    There are a number of features that make RandomText a little different from other Lorem Ipsum dummy text generators you may find around the web
+            .features__body
+                +feature-item(
+                    "./images/feature_admin.svg",
+                    "1",
+                    "AWESOME FEATURE",
+                    "Powerfull Admin",
+                    "What is portfolio template in the page attributes Default and full width templates are self-explanatory, and I have figured out the Showcase Template, but am unable to determine what a Portfolio Template is. "
+                ).features__feature-item
+                +feature-item(
+                    "./images/feature_responsive.svg",
+                    "2",
+                    "AWESOME FEATURE",
+                    "100% Responsive",
+                    "What is portfolio template in the page attributes Default and full width templates are self-explanatory, and I have figured out the Showcase Template, but am unable to determine what a Portfolio Template is. "
+                ).features__feature-item.feature-item_reverse
+                +feature-item(
+                    "./images/feature_support.svg",
+                    "3",
+                    "AWESOME FEATURE",
+                    "The Best Support",
+                    "What is portfolio template in the page attributes Default and full width templates are self-explanatory, and I have figured out the Showcase Template, but am unable to determine what a Portfolio Template is. "
+                ).features__feature-item
+
